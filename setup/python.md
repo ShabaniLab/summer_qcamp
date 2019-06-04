@@ -27,7 +27,7 @@ Matplotlib, Jupyter) with the exception of Qiskit. If you do not use Anaconda
 you can install them using pip:
 
 ```bash
->>> pip install numpy scipy matplotlib
+pip install numpy scipy matplotlib
 ```
 
 Anaconda provides a package manager to install additional libraries named
@@ -35,7 +35,7 @@ Anaconda provides a package manager to install additional libraries named
 qiskit so to install it you have to use `pip` from the command line.
 
 ```bash
->>> pip install qiskit
+pip install qiskit
 ```
 
 ### Note
