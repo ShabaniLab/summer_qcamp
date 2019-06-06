@@ -1,4 +1,4 @@
-There are a number of resources you can use to learn the fundamentals of Python. Here are a few website you
+There are a number of resources you can use to learn the fundamentals of Python. Here are a few websites you
 can use to get started:
 
 Free options
