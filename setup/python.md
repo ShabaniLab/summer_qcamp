@@ -43,6 +43,12 @@ pip install qiskit
 > During installation, you might see the warning message Failed to build qiskit.
 This is a non-fatal error that does not affect installation.
 
+### Note
+
+> In order to install qiskit aqua you will need to install a C compiler. 
+>>For MacOS: You can use Xcode 10.2.1 which is accessible with this link https://developer.apple.com/download/more/. Also download the Command Line tools (for MacOS 10.14 for Xcode 10.2.1) to solve the problem.
+>>For Windows: 
+
 To test your installation start Python (or a notebook) and import qiskit:
 
 ```python
