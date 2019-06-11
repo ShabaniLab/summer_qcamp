@@ -1,4 +1,4 @@
-# Summer Q camp
+# Summer Q camp !
 
 Resources for the summer Q camp in ShabaniLab
 
