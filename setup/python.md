@@ -43,6 +43,12 @@ pip install qiskit
 > During installation, you might see the warning message Failed to build qiskit.
 This is a non-fatal error that does not affect installation.
 
+### Note: PyEDA for Qiskit-Aqua
+
+> Qiskit-aqua relies on PyEDA for some algorithms. It is optional on Windows but mandatory on other platforms and requires a C compiler to be available to be installed. If you attempt to install qiskit using `pip install qiskit` and you do not have C compiler on Linux or MacOS you will see some error messages. Those only affect qiskit-aqua so if you do not care about it you can ignore them. To install qiskit-aqua and PyEDA follow the instructions below.
+>- On Windows: Go to https://www.lfd.uci.edu/~gohlke/pythonlibs/ search for PyEDA and download the wheel file matching your Python version and bitness. Then from the command line, go to the folder in which you saved the file and run `pip install pyeda‑0.28.0‑cp37‑cp37m‑win_amd64.whl` (*use the actual name of the file you downloaded*)
+>- On MacOS: You can use Xcode 10.2.1 which is accessible with this link https://developer.apple.com/download/more/. Download and install the Command Line tools (Xcode 10.2.1 for MacOS 10.14). You can then install qiskit-aqua by running `pip  install qiskit-aqua`.
+
 To test your installation start Python (or a notebook) and import qiskit:
 
 ```python
