@@ -10,5 +10,5 @@ https://github.com and create one.
 
 Smartgit is a graphical user interface to use git (which is otherwise a command
 line program). You can download it from
-https://www.syntevo.com/smartgit/download/. When installing it be sure to
+https://www.syntevo.com/smartgit/download/. When installing it be **sure** to
 indicate non-commercial use only.
