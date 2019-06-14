@@ -54,4 +54,12 @@ AttributeError: 'Line2D' object has no property 'legend'
 
 You should remember the following:
 - first look at the bottom of the traceback to identify the error that occurred
-- next look at the function called to
+- next look at the functions called starting from the bottom and go up. Try to
+  find a function a you know (because you wrote it or because you used it in
+  another case) and see if the error message make sense in its context.
+
+Here the example is a bit silly since you have to go all the way to your call
+where there is also a 'legend' which apparently we should not use. However
+along the way, we see a line where `Line2D` is created and after that it is
+apparently updated (meaningful names are important), which can help you
+get a bit of context.
