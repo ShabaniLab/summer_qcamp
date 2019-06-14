@@ -21,7 +21,7 @@ and you cannot find a solution to a technical problem online ask the mentors.
 
 - *QUANTUM MECHANICS The Theoretical Minimum* by LEONARD SUSSKIND and ART FRIEDMAN
   - chapter 1
-  - chapter 2
+  - chapter 2 (you can skip the mathematical appendices at first)
 
 ## Qiskit basics
 
@@ -30,13 +30,18 @@ Some basics assumptions made in Qiskit:
 - the measurement basis has a fixed axis (z)
 
 To get started you can have a look at the qiskit documentation
-https://qiskit.org/documentation/getting_started.html that should get you going
-for your first experiments.
+https://qiskit.org/documentation/getting_started.html. It describes a two-qubit
+experiment but you can simply transform it in a single qubit one for your
+purpose. You can look at https://qiskit.org/documentation/terra/summary_of_quantum_operations.html
+to learn what operation you can perform on your qubit using qiskit (focus on
+the single qubit part we will come to multi qubit operations later on). Do not
+focus too much on the maths, rather try to figure out what a given gate does
+through simple tests.
 
 ## Directions
 
 - Qiskit has a fixed measurement basis how to emulate a rotation of the
-  measurement basis ?
+  measurement basis ? Hint: it is a question of perspective.
 - Can you figure out a way to understand what a given gate does simply based
   on measurements ?
 
