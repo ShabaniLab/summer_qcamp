@@ -20,6 +20,7 @@ and you cannot find a solution to a technical problem online ask the mentors.
   - chapter 6
 
 - *QUANTUM MECHANICS The Theoretical Minimum* by LEONARD SUSSKIND and ART FRIEDMAN
+  https://archive.org/details/QuaMecTheTheMin/page/n3
   - chapter 1
   - chapter 2 (you can skip the mathematical appendices at first)
 
