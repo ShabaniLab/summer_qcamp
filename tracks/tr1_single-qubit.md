@@ -44,10 +44,14 @@ through simple tests.
 - Qiskit has a fixed measurement basis how to emulate a rotation of the
   measurement basis ? Hint: it is a question of perspective.
 - Can you figure out a way to understand what a given gate does simply based
-  on measurements ?
+  on measurements ? How many measurements do you need to perform ?
 
 Once you think you have a grasp of those look at
 https://nbviewer.jupyter.org/github/Qiskit/qiskit-tutorials/blob/master/qiskit/basics/3_plotting_data_in_qiskit.ipynb
 to learn about different ways of plotting when using different simulators.
 Those simulators are further away from the experimental truth but can help
 confirm some of your intuitions for a single qubit in a more visual manner.
+
+In particular play with the state vector simulator and the `plot_state_city`
+plotting function. Try to figure out the link between the state of your qubit
+and what is plotted. What is the meaning of the non-diagonal elements ?
