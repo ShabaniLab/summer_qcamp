@@ -41,12 +41,12 @@ through simple tests.
 
 ## Directions
 
-- Qiskit has a fixed measurement basis how to emulate a rotation of the
+- Qiskit has a fixed measurement basis. How can one emulate a rotation of the
   measurement basis ? Hint: it is a question of perspective.
-- Can you figure out a way to understand what a given gate does simply based
-  on measurements ? How many measurements do you need to perform ?
+- Can one figure out a way to understand what a given gate does simply based
+  on measurement results ? How many measurements would one need to perform ?
 
-Once you think you have a grasp of those look at
+Once you think you have a good grasp of those topics take a look at
 https://nbviewer.jupyter.org/github/Qiskit/qiskit-tutorials/blob/master/qiskit/basics/3_plotting_data_in_qiskit.ipynb
 to learn about different ways of plotting when using different simulators.
 Those simulators are further away from the experimental truth but can help
