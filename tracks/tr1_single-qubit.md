@@ -14,15 +14,15 @@ and you cannot find a solution to a technical problem online ask the mentors.
 
 ## Readings
 
-- Feynman lectures http://www.feynmanlectures.caltech.edu/III_toc.html
-  - chapter 1
-  - chapter 5
-  - chapter 6
-
 - *QUANTUM MECHANICS The Theoretical Minimum* by LEONARD SUSSKIND and ART FRIEDMAN
   https://archive.org/details/QuaMecTheTheMin/page/n3
   - chapter 1
   - chapter 2 (you can skip the mathematical appendices at first)
+
+- Feynman lectures http://www.feynmanlectures.caltech.edu/III_toc.html
+  - chapter 1
+  - chapter 5
+  - chapter 6
 
 ## Qiskit basics
 
@@ -43,8 +43,12 @@ through simple tests.
 
 - Qiskit has a fixed measurement basis. How can one emulate a rotation of the
   measurement basis ? Hint: it is a question of perspective.
+- What measurements do you need to perform to fully characterize the state
+  prepared by a circuit ?
 - Can one figure out a way to understand what a given gate does simply based
   on measurement results ? How many measurements would one need to perform ?
+  Since a gate can be represented by a 2x2 matrix be sure you get all 4
+  elements.
 
 Once you think you have a good grasp of those topics take a look at
 https://nbviewer.jupyter.org/github/Qiskit/qiskit-tutorials/blob/master/qiskit/basics/3_plotting_data_in_qiskit.ipynb
@@ -52,6 +56,13 @@ to learn about different ways of plotting when using different simulators.
 Those simulators are further away from the experimental truth but can help
 confirm some of your intuitions for a single qubit in a more visual manner.
 
-In particular play with the state vector simulator and the `plot_state_city`
-plotting function. Try to figure out the link between the state of your qubit
-and what is plotted. What is the meaning of the non-diagonal elements ?
+Using the statevector simulator, you can:
+- use the Bloch sphere representation to confirm your method to determine the
+  state prepared by a circuit through measurements.
+- try to confirm the action of a gate on a qubit using the Bloch sphere
+  representation. Confront your result to the answer you had formulated using
+  measurement outcomes.
+- figure out the link between the state of your qubit and the output of
+  `plot-city_state`. What is the meaning of the non-diagonal elements ?
+
+Using teh unitary operator, cross check the characterization of a gate.

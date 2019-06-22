@@ -38,12 +38,15 @@ through simple tests.
 ## Directions
 
 - During the exercise you will have to figure out how to create what is known
-  as triplet and singlet state. Since you may not know how to characterize them
-  using only measurement (yet), help yourself to the state vector simulator and
+  as triplet and singlet states. Since you may not know how to characterize them
+  using only measurement (yet), help yourself of the state vector simulator and
   `plot_state_city` tool to figure out how to create them.
-- Try to think about how you would fully characterize a two-qubit system the
-  way you did with a single qubit. The full answer is quite involved but you
-  can at least describe the measurement procedure.
+- Find a measurement discriminating in a single shot manner (running the
+  circuit only once) between the singlet and the triplet 0 state.
+- Try to thing about how you would fully characterize a two-qubit system the
+  way you did with a single qubit ? The full answer is quite involved but you
+  can at least describe the measurement procedure. Similarly how would you
+  characterize the impact of a full circuit.
 
 Once you have dealt with examples of the book, try to investigate some larger
 system (3 qubits). Once you feel more comfortable, have a look at the tutorials in
