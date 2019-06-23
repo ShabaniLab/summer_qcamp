@@ -58,11 +58,12 @@ confirm some of your intuitions for a single qubit in a more visual manner.
 
 Using the statevector simulator, you can:
 - use the Bloch sphere representation to confirm your method to determine the
-  state prepared by a circuit through measurements.
+  state prepared by a circuit through multiple measurements (using the QASM
+  simulator).
 - try to confirm the action of a gate on a qubit using the Bloch sphere
-  representation. Confront your result to the answer you had formulated using
-  measurement outcomes.
+  representation. Compare your results with to the answer you had formulated
+  using measurement outcomes.
 - figure out the link between the state of your qubit and the output of
   `plot-city_state`. What is the meaning of the non-diagonal elements ?
 
-Using teh unitary operator, cross check the characterization of a gate.
+Using the unitary operator, cross check the characterization of a gate.
