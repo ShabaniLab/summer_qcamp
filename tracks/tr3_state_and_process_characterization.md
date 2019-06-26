@@ -23,8 +23,8 @@ In some cases we are not only concerned with the state prepared by the circuit,
 but by the actual effect of a circuit on a generic state. This can be used for
 example to verify that a circuit operates as predicted by the theory. Fully
 determining the effect of a circuit requires to perform a Quantum Process
-Tomography. Many flavors of it exists and the following reference introduce the
-most common one.
+Tomography (QPT). Many flavors of it exist and the following reference
+introduce the most common one.
 https://arxiv.org/pdf/1502.01016.pdf
 
 The following reference is a quite complete reference about quantum computing.
@@ -44,5 +44,5 @@ following notebooks:
 
 The notebooks teach you how to use the tools provided in Qiskit Ignis which is
 fine. However before starting playing with those on different states and
-process, look at the circuits generated for QST and QFT. Do they match your
-expectations based on what you did in the first two track ?
+process, look at the circuits generated for QST and QPT. Do they match your
+expectations based on what you did in the first two tracks ?
