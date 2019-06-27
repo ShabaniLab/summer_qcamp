@@ -7,16 +7,16 @@ effect of a circuit on an arbitrary state.
 In this track we will formalize how to perform such operations in a systematic
 manner.
 
-This topic has strong link to the study of noise and errors in quantum circuits
-that we will aboard in the next track, so you may need to go back and forth
-between the two tracks at one point.
+This topic has strong links to the study of noise and errors in quantum circuits
+that we will cover in the next track. Therefore, you may need to go back and forth
+between the two tracks at some point.
 
 ## References
 
-Fully characterizing the state of a quantum state requires to perform a
-tomography of the state. The procedure is called Quantum State Tomography (QST).
+Fully characterizing the state of a quantum state requires performing a
+tomography of the state. This procedure is called Quantum State Tomography (QST).
 The following reference introduces it on both single qubit and two qubits
-system.
+system:
 http://research.physics.illinois.edu/QI/Photonics/tomography-files/amo_tomo_chapter.pdf
 
 In some cases we are not only concerned with the state prepared by the circuit,
@@ -34,15 +34,15 @@ You can refers to it for additional discussions.
 
 ## Qiskit tools
 
-Qiskit provide tools to perform both QST and QPT and more importantly to analyse
-the results of those procedures under Qiskit Ignis. They are illustrated in the
+Qiskit provides tools to perform both QST and QPT and more importantly to analyze
+the results of those procedures under Qiskit Ignis. Those are illustrated in the
 following notebooks:
 - https://nbviewer.jupyter.org/github/Qiskit/qiskit-tutorials/blob/master/qiskit/ignis/state_tomography.ipynb
 - https://nbviewer.jupyter.org/github/Qiskit/qiskit-tutorials/blob/master/qiskit/ignis/process_tomography.ipynb
 
-## Direction
+## Directions
 
-The notebooks teach you how to use the tools provided in Qiskit Ignis which is
-fine. However before starting playing with those on different states and
-process, look at the circuits generated for QST and QPT. Do they match your
+The notebooks teach you how to use the tools provided in Qiskit Ignis, which is
+fine. However, before starting to play with those on different states and
+processes, look at the circuits generated for QST and QPT. Do they match your
 expectations based on what you did in the first two tracks ?
