@@ -31,6 +31,8 @@ The following reference is a quite complete reference about quantum computing.
 You can refers to it for additional discussions.
 <mmrc.amss.cas.cn/tlb/201702/W020170224608149940643.pdf>
 
+This track requires a good understanding of density matrices. Feel free to check out Chapter 7 of "Quantum Mechanics: The Theoretical Minimum" for further information on density matrices, the ways to construct and use them.
+
 
 ## Qiskit tools
 
