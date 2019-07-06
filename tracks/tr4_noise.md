@@ -19,7 +19,7 @@ http://docs.rigetti.com/en/stable/noise.html
 Finally the chapter 8 of
 [Quantum Computation and Quantum Information](http://mmrc.amss.cas.cn/tlb/201702/W020170224608149940643.pdf)
 covers in a more technical manner the different ways one can represent noise.
-It uses same terminology as Qiskit and may help clarify the Qiskit
+It uses the same terminology as Qiskit and may help clarify the Qiskit
 documentation.
 
 
@@ -27,9 +27,9 @@ documentation.
 
 Qiskit provides both tools to simulate the impact of noise on a qubit under Aer
 and tools to characterize qubits under Ignis. Because those characterizations
-require to run many circuits it is not always practical to run them on the real
-hardware, but you can try to run a couple of a real backend to get a feel for
-the real devices limitations.
+require to run many circuits it is not always practical to run them all on the
+real hardware, but you can try to run a couple on a real backend to get a feel
+for the real devices limitations.
 
 The following two notebooks cover how to define noise in qiskit, and cover in
 particular the noise model that can be used to approximate the noise on a real
@@ -37,7 +37,7 @@ device.
 https://github.com/Qiskit/qiskit-tutorials/blob/master/qiskit/aer/building_noise_models.ipynb
 https://github.com/Qiskit/qiskit-tutorials/blob/master/qiskit/aer/device_noise_simulation.ipynb
 
-The first Ignis notebook focus on the usual measurements to characterize noise,
+The first Ignis notebook focuses on the usual measurements to characterize noise,
 such as T1 measurements, Ramsey oscillation, Hahn echo. The second one is more
 geared toward analysing errors in gate that are not always the result of noise.
 In both cases, the noise setup is sometime a bit tweaked to reflect the actual
