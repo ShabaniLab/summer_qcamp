@@ -29,9 +29,11 @@ https://arxiv.org/pdf/1502.01016.pdf
 
 The following reference is a quite complete reference about quantum computing.
 You can refers to it for additional discussions.
-<mmrc.amss.cas.cn/tlb/201702/W020170224608149940643.pdf>
+[Quantum Computation and Quantum Information](http://mmrc.amss.cas.cn/tlb/201702/W020170224608149940643.pdf)
 
-This track requires a good understanding of density matrices. Feel free to check out Chapter 7 of "Quantum Mechanics: The Theoretical Minimum" for further information on density matrices, the ways to construct and use them.
+This track requires a good understanding of density matrices. Feel free to
+check out Chapter 7 of "Quantum Mechanics: The Theoretical Minimum" for further
+information on density matrices, the ways to construct and use them.
 
 
 ## Qiskit tools
@@ -48,3 +50,6 @@ The notebooks teach you how to use the tools provided in Qiskit Ignis, which is
 fine. However, before starting to play with those on different states and
 processes, look at the circuits generated for QST and QPT. Do they match your
 expectations based on what you did in the first two tracks ?
+
+Try to compare the real hardware results of a simple QST with the perfect
+situation represented by the simulator .
