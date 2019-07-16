@@ -136,7 +136,7 @@ The coupling of the qubit to a cavity can be described in the following way:
 from qutip import destroy, sigmam, qeye, tensor
 
 a  = tensor(destroy(N), qeye(2))
-sm = tensor(qeye(N), sigman(2))
+sm = tensor(qeye(N), sigman())
 sz = tensor(qeye(N), sigmaz())
 
 # Most general representation
@@ -167,8 +167,8 @@ When studying pulse you will have to vary the amplitude of the field in time.
 ```python
 from qutip import destroy, sigmam, qeye, tensor
 
-a  = tensor(destroy(N), qeye(2))
-b = tensor(qeye(N), destroy(2))
+a  = tensor(destroy(N), qeye(M))
+b = tensor(qeye(N), destroy(M))
 
 # Most general representation
 H = wc * a.dag() * a + (wq + alpha/2) * b.dag() * b - alpha/2 * (b.dag() * b * b.dag() * b) + g * (a.dag() + a) * (b + b.dag())
