@@ -37,4 +37,19 @@ The PCB should be mounted with the copper side against the 4 corner pieces.
 Ecosorb preparation
 -------------------
 
-TODO
+The ECOSORB resin is an expoxy resin in two parts (X and Y). The instruction
+sheet should be with the containers. You will need the scale located in the
+bottom drawer by the MBE computer (ask Kasra or Kaushini). Since the resin is
+not a nice chemical you should prepare it under the hood by the MBE. Be SURE to
+protect the hood using aluminium foil. Also ask what glassware to use to
+somebody from the lab.
+
+The X component is not really fluid to start with but it gets better when it
+gets warmer.
+
+To avoid issues, you should pour the resin on only one side of the PCB at at
+time and cure the box with this side up.
+
+You must protect the hot plate on which you will prepare the resin and then
+bake the box since some resin will leak out. Cure the box for about a night at
+95˚C.
