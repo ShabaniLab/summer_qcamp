@@ -15,21 +15,21 @@ components:
 - Minicircuits: Directional coupler ZEDC-15-2B
 - Digikey/Mouser: SMP-MSLD-PCS
 
-The tank circuit is described inhttps://link.aps.org/doi/10.1103/PhysRevApplied.5.034011
-figure 1 a. It is composed of two variable capacitances (see inset with a
+The tank circuit is described in https://link.aps.org/doi/10.1103/PhysRevApplied.5.034011
+figure 1 a. It is composed of two variable capacitors (see inset with a
 dashed frame), an inductor and is connected through a 5 kΩ resistor to a DC
 line. The resistor in parenthesis in the schematic is simply used for modelling
-purposes. An alternative design without the variable capacitances should also
-be considered. To connect the AC port of the circuit use a SMP connector
-SMP-MSLD-PCS (try to make you design 50 Ω match). As in the paper we will use a
+purposes (not a physical component). An alternative design without the variable capacitors should also
+be tested. To connect the AC port of the circuit use an SMP connector
+SMP-MSLD-PCS (try to make your design 50 Ω match). As in the paper we will use a
 large resistor (~ 1 GOhm) connected to ground to model the sample. You may have
 to order it.
 
 In order to be able to test it, you will have to design a test PCB to
-accommodate the components that you will be able to fabricate using the lab
+accommodate the components. You will be able to fabricate it using the lab
 milling machine.
 
-Once you have the PCB and you have mounted all the components on it, ask some
+Once you have the PCB and you have mounted all the components on it, ask for
 help to setup the VNA to measure the reflected signal by using the directional
-coupler.  Study teh dependence of the resonances as a function the varactances.
-One of the goal is to check that those components behave as expected.
+coupler. Study the dependence of the resonances as a function the varactor bias.
+One of the goals is to check that those components behave as expected.
