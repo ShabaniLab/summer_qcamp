@@ -22,7 +22,7 @@ line. The resistor in parenthesis in the schematic is simply used for modelling
 purposes. An alternative design without the variable capacitances should also
 be considered. To connect the AC port of the circuit use a SMP connector
 SMP-MSLD-PCS (try to make you design 50 Ω match). As in the paper we will use a
-large resistor (~ 1 GHom) connected to ground to model the sample. You may have
+large resistor (~ 1 GOhm) connected to ground to model the sample. You may have
 to order it.
 
 In order to be able to test it, you will have to design a test PCB to
