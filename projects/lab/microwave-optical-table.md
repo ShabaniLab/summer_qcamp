@@ -44,7 +44,7 @@ using the SC5511A USB Soft Front Panel program found under Signal Core in the
 start menu and on the desktop. Each source is identified by its serial number
 found on a sticker at its back. For testing you should use frequencies between
 5 and 8 GHz. You should use the RF output 1 connector and be careful to avoid
-static discharge when connecting disconnecting.
+static discharge when connecting or disconnecting.
 
 ### Using the power analyser
 
